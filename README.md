@@ -46,16 +46,11 @@ Exemplo: http://localhost:5173
 
 ```
 /
-├──> node_modules
-├──> Public
-├──> SRC - 
-├──.gitignore
-├── eslint.config.js
-├── index.html
-├── package-lock.json
-├── package.json
-├── README.md
-└── vite.config.js
+├── src/
+│   ├── assets/       # Imagens utilizadas no projeto  
+│   ├── pages/        # Páginas do projeto e seus componentes  
+│   └── main.jsx      # Arquivo raiz do projeto
+
 ```
 
 ## 📌 Funcionalidades

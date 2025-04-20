@@ -1,43 +1,58 @@
 # Landing Page Chevrolet
 
-breve explicação!
+Projeto de uma landing page comemorativa desenvolvida para destacar os 100 anos da Chevrolet no Brasil. O layout moderno e responsivo valoriza a identidade visual da marca, com foco em performance e experiência do usuário.
 
 ## 🚀 Tecnologias Utilizadas
 
-- REACT
-- TAILWIND
-- HTML
-- CSS
-- JavaScript
+- HTML, CSS e JavaScript
+- Tailwind CSS para estilização rápida e responsiva
+- React para estruturação dos componentes
 
 ## 📌 Pré-requisitos
 
 Antes de começar, certifique-se de ter os seguintes requisitos instalados:
 - Navegador atualizado
 - Editor de código (VS Code, Sublime, etc.)
+- Node.js instalado (versão 16 ou superior recomendada)
 - Git (opcional, para versionamento)
 
 ## 📦 Como Instalar e Executar
 
 1. Clone o repositório:
 ```
-git clone https://github.com/arthurpedr/Projeto-Yu-Gi-Oh.git
+git clone https://github.com/arthurpedr/chevrolet-landing-page.git
 ```
 2. Acesse a pasta do projeto:
 ```
-cd Projetos-Yu-Gi-Oh
+cd chevrolet-landing-page
 ```
-3. Abra o arquivo `index.html` no navegador.
+3. Instale as dependências:
+```
+npm install
+```
+4. Inicie o servidor de desenvolvimento:
+```
+npm run dev
+```
+5. Acesse no navegador:
+```
+Exemplo: http://localhost:5173
+```
 
 ## 📄 Estrutura do Projeto
 
 ```
 /
-├── CSS
-├── FONTE
-├── JS
+├──> node_modules
+├──> Public
+├──> SRC - 
+├──.gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
 ├── README.md
-└── index.html
+└── vite.config.js
 ```
 
 ## 📌 Funcionalidades
@@ -63,7 +78,8 @@ git commit -m 'Adicionando nova feature'
 ```
 git push origin minha-feature
 ```
-5. Abra um **Pull Request**.
+5. Abra um **Pull Request** explicando o que foi feito.
+
 
 ## 📜 Licença
 

@@ -2,6 +2,9 @@
 
 Projeto de uma landing page comemorativa desenvolvida para destacar os 100 anos da Chevrolet no Brasil. O layout moderno e responsivo valoriza a identidade visual da marca, com foco em performance e experiência do usuário.
 
+## viwer
+![Interface do site](./src/assets/captura.png)
+
 ## 🚀 Tecnologias Utilizadas
 
 - HTML, CSS e JavaScript

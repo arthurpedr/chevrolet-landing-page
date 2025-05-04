@@ -132,10 +132,10 @@ const categorias = {
                     <a href="">Relatórios de Transparência</a>
                 </div>
                 <div className='flex gap-4 flex-wrap'>
-                    <img src={whatsapp} alt="chome" className='w-[30px]' />
-                    <img src={whatsapp} alt="chome" className='w-[30px]' />
-                    <img src={whatsapp} alt="chome" className='w-[30px]' />
-                    <img src={whatsapp} alt="chome" className='w-[30px]' />
+                    <img src={whatsapp} alt="whatsapp" className='w-[30px]' />
+                    <img src="/branco-instagram.svg" alt="instagram" className='w-[30px]' />
+                    <img src="/twitterx.svg" alt="chome" className='w-[30px]' />
+                    <img src="/facebook.svg" alt="facebook" className='w-[30px]' />
                 </div>
         </div>
 

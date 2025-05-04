@@ -15,7 +15,7 @@ function Comercial() {
             <div className="relative z-10 flex flex-col items-center justify-center h-full text-white gap-8">
                 <p className="text-3xl">Elétricos Chevrolet</p>
                 <p className='text-3xl font-bold'>Blazer EV RS</p>
-                <button className='bg-white text-black w-[200px] h-[45px] text-xl rounded-[10px] hover:bg-transparent border-[2px] border-white font-semi-bold hover:text-white' type="button">Explorar</button>
+                <button className='bg-white text-black w-[200px] h-[45px] text-xl rounded-[5px] hover:bg-transparent border-2 border-white font-semi-bold hover:text-white transition duration-300 transform hover:scale-105 focus:outline-none cursor-pointer' type="button">Explorar</button>
             </div>
         </div>
     );

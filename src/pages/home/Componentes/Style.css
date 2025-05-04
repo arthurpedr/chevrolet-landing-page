@@ -1,0 +1,11 @@
+#main-header {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, top 0.3s ease;
+  color: #1A1A1A;
+}
+
+#main-header.scrolled {
+  background-color: white;
+  color: #1A1A1A;
+}

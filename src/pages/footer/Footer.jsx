@@ -50,10 +50,10 @@ const categorias = {
   
   function Footer() {
     return (
-      <div id='Concessionárias' className="w-full min-h-[100vh] bg-black flex text-white p-4 flex flex-col ">
+      <div id='Concessionárias' className="w-full min-h-[100vh] bg-black flex justify-center text-white p-4 flex flex-col ">
         <p className="text-5xl font-bold">Juntos na Direção</p>
 
-        <div className="flex justify-center gap-8 flex-wrap mt-8">
+        <div className="flex w-[90%] xl:w-[1250px] mx-4 md:mx-16 justify-center gap-4 flex-wrap mt-8">
             <div className="flex flex-col">
                 <p className="mt-8">Veículos</p>
                 <div className="w-[300px] h-[120px] flex justify-between border-t border-white mt-4 text-[12px] font-bold">
@@ -122,7 +122,7 @@ const categorias = {
 
         </div>
 
-        <div className='flex mb-4 justify-between text-[12px] font-bold md:mx-16 mx-4'>
+        <div className='flex w-[90%] xl:w-[1250px] mb-4 justify-between text-[12px] font-bold md:mx-16 mx-4'>
                 <div className='flex gap-4 underline flex-wrap'>
                     <a href="">Fale Conosco</a>
                     <a href="">Proconve</a>
@@ -139,7 +139,7 @@ const categorias = {
                 </div>
         </div>
 
-        <div className="flex flex-col w-[90%] lg:w-[1320px] gap-8 border-t pt-8 text-[10px] md:text-[12px] font-bold mx-4 md:mx-16 flex-wrap">
+        <div className="flex flex-col w-[90%] lg:w-[1250px] gap-8 border-t pt-8 text-[10px] md:text-[12px] font-bold mx-4 md:mx-16 flex-wrap">
         <p>Faça revisões em seu veículo regularmente. Nossos veículos estão em conformidade com o Programa de Controle da Poluição do Ar por Veículos Automotores - JUNTOS SALVAMOS VIDAS.</p>
             <p>A GENERAL MOTORS DO BRASIL informa que não realiza a venda de veículos zero quilometro sem o auxílio de uma concessionária da rede Chevrolet. Para localizar uma concessionária acesse aqui.</p>
             <p>DESACELERE. SEU BEM MAIOR É A VIDA</p>
@@ -150,6 +150,7 @@ const categorias = {
                     Avenida Goiás, n.1805, São Caetano do Sul – SP, CEP 09521-300; CNPJ 59.275.792/0001-50</p>
             </div>
         </div >
+        <p className='text-[12px] flex justify-center pt-4'>&copy; 2025 Pedro Arthur.</p>
            
     </div>
 

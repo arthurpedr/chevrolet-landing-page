@@ -101,7 +101,7 @@ function Modelos() {
                 alt={carro.nome}
                 className="w-full h-[200px] md:h-[300px] lg:h-[400px] object-contain rounded-xl"
               />
-              <div className='flex justify-between items-center '>
+              <div className='flex justify-between items-center px-12'>
                 <div>
                   <p className="mt-2 text-xl">{carro.nome}</p>
                   <p className='text-x text-gray-500'>{carro.descriçao}</p>
@@ -121,7 +121,7 @@ function Modelos() {
           <button
             aria-label="btn Esquerda"
             onClick={scrollLeft}
-            className="bg-black text-white p-3 rounded-full hover:bg-gray-800 transition"
+            className="bg-black text-white p-3 rounded-full hover:bg-gray-800 transition cursor-pointer"
           >
             
             <ArrowLeft />
@@ -129,7 +129,7 @@ function Modelos() {
           <button
             aria-label="btn Direita" 
             onClick={scrollRight}
-            className="bg-black text-white p-3 rounded-full hover:bg-gray-800 transition"
+            className="bg-black text-white p-3 rounded-full hover:bg-gray-800 transition cursor-pointer"
           >
             
             <ArrowRight />

@@ -56,6 +56,8 @@ Exemplo: http://localhost:5173
 ## 📌 Funcionalidades
 
 ✅ Projeto Responsivo
+✅ Page de escolha de carros
+✅ Slider moderno
 
 ## ✨ Melhorias Futuras
 

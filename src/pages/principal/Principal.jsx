@@ -13,7 +13,7 @@ function Principal() {
           Há 100 anos no Brasil, contamos histórias que nos inspiram a construir o futuro. E em 2025 seguimos juntos na direção!
         </p>
         <button
-          className="w-[120px] h-[48px] bg-white hover:bg-transparent text-black hover:text-white hover:border-2 hover:border-white text-[20px] font-semibold transition duration-300 transform hover:scale-105 focus:outline-none"
+          className="w-[120px] h-[48px] bg-white hover:bg-transparent text-black hover:text-white hover:border-2 hover:border-white text-[20px] font-semibold transition duration-300 transform hover:scale-105 focus:outline-none cursor-pointer"
           type="button"
         >
           Saber mais

@@ -51,7 +51,7 @@ function Servicos() {
             <img className="w-[50px] hidden group-hover:block"  src={item.imagem2} alt="ícone" />
             <p className="text-2xl font-bold">{item.titulo}</p>
             <button
-              className="text-[#094FC3] font-bold group-hover:text-white transition"
+              className="text-[#094FC3] font-bold group-hover:text-white transition cursor-pointer"
               type="button"
             >
               {item.botao}

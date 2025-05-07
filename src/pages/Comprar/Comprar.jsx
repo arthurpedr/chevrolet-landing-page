@@ -1,5 +1,5 @@
 import camaro from "../../assets/camaro.png";
-import S10 from "../../assets/S10.png";
+import S10 from "../../assets/s10.png";
 import Silverado from "../../assets/silverado.png";
 import Onixplus from "../../assets/onixplus.png";
 

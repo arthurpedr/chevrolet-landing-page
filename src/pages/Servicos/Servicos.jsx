@@ -45,7 +45,7 @@ function Servicos() {
         {servicos.map((item, index) => (
           <div
             key={index}
-            className="group w-[250px] h-[300px] flex flex-col justify-center items-start gap-4 mt-10 p-4 hover:bg-blue-500 hover:text-white transition-all duration-300"
+            className="group w-[250px] h-[300px] flex flex-col justify-center items-center lg:items-start text-center lg:text-start gap-4 mt-10 p-4 hover:bg-blue-500 hover:text-white transition-all duration-300"
           >
             <img className="w-[50px] flex group-hover:hidden" src={item.imagem} alt="ícone" />
             <img className="w-[50px] hidden group-hover:block"  src={item.imagem2} alt="ícone" />

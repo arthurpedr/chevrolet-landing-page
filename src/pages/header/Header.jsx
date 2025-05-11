@@ -53,15 +53,15 @@ function Header() {
     >
       <div className="flex items-center justify-between px-6 py-4 md:justify-center">
         {/* Logo (mobile) */}
-        <img src={logo} alt="logo" className="w-[100px] md:hidden" />
+        <img src={logo} alt="logo" className="w-[80px] md:hidden" />
 
         {/* Menu Desktop */}
         <ul className="hidden md:flex items-center gap-8 text-xl">
           <li><a className={underlineHover} href="#Modelos">Veículos</a></li>
           <li><a className={underlineHover} href="#Servicos">Serviços</a></li>
           <li><img src={logo} alt="logo-chevrolet" className="h-8" /></li>
-          <li><a className={underlineHover} href="#Comprar">Comprar</a></li>
-          <li><a className={underlineHover} href="#Concessionárias">Concessionárias</a></li>
+          <li><a className={underlineHover} href="#comprar">Comprar</a></li>
+          <li><a className={underlineHover} href="#Concessionarias">Concessionárias</a></li>
         </ul>
 
         {/* Botão menu (mobile) */}
@@ -75,8 +75,8 @@ function Header() {
         <ul className="md:hidden flex flex-col items-center gap-6 pb-6 text-lg font-semi-bold bg-white shadow-md">
           <li><a className={underlineHover} onClick={toggleMenu} href="#Modelos">Veículos</a></li>
           <li><a className={underlineHover} onClick={toggleMenu} href="#Servicos">Serviços</a></li>
-          <li><a className={underlineHover} onClick={toggleMenu} href="#Projects">Comprar</a></li>
-          <li><a className={underlineHover} onClick={toggleMenu} href="#Contact">Concessionárias</a></li>
+          <li><a className={underlineHover} onClick={toggleMenu} href="#comprar">Comprar</a></li>
+          <li><a className={underlineHover} onClick={toggleMenu} href="#Concessionarias">Concessionárias</a></li>
         </ul>
       )}
     </header>

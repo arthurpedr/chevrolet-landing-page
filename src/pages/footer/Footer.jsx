@@ -50,7 +50,7 @@ const categorias = {
   
   function Footer() {
     return (
-      <div id='Concessionárias' className="w-full min-h-[100vh] bg-black flex justify-center text-white p-4 flex flex-col ">
+      <div id='Concessionarias' className="w-full min-h-[100vh] bg-black flex justify-center items-center text-white p-4 flex flex-col ">
         <p className="text-5xl font-bold">Juntos na Direção</p>
 
         <div className="flex w-[90%] xl:w-[1250px] mx-4 md:mx-16 justify-center gap-4 flex-wrap mt-8">

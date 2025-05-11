@@ -2,7 +2,9 @@ import Video from '../../Videos/Lancamento.mp4';
 
 function Comercial() {
     return (
-        <div className="relative w-full h-[80vh] overflow-hidden">
+        <div
+        id='comprar'
+         className="relative w-full h-[80vh] overflow-hidden">
             <video
                 className="absolute top-0 left-0 w-full h-full object-cover"
                 src={Video}

@@ -14,10 +14,12 @@ export default function PartnerCarousel() {
   const loopedPartners = Array(6).fill(partners).flat();
 
   return (
-    <div
-      id="Comprar"
-      className="relative w-full overflow-hidden bg-white py-6"
-    >
+    <div className="relative w-full overflow-hidden bg-white py-6">
+      <div className="pointer-events-none absolute inset-0 z-10 flex justify-between">
+        <div className="w-[100px] bg-gradient-to-r from-white to-transparent h-full" />
+        <div className="w-[100px] bg-gradient-to-l from-white to-transparent h-full" />
+      </div>
+
       <div
         className="flex w-max gap-10 animate-slide"
         style={{
@@ -29,11 +31,7 @@ export default function PartnerCarousel() {
             key={i}
             className="flex flex-col items-center justify-center w-[400px] md:w-[700px] bg-white rounded-xl shrink-0"
           >
-            <img
-              src={partner.logo}
-              alt={partner.name}
-              className="w-[100%]"
-            />
+            <img src={partner.logo} alt={partner.name} className="w-[100%]" />
           </div>
         ))}
       </div>

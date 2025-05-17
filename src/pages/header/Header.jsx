@@ -5,7 +5,7 @@ import "../home/Componentes/Style.css";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const underlineHover = "relative inline-block after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-[2px] after:bg-black after:transition-all after:duration-600 hover:after:w-full hover:after:left-0";
+  const underlineHover = "relative inline-block after:content-[''] after:absolute after:left-1/2 after:bottom-[-30%] after:w-0 after:h-[2px] after:bg-black after:transition-all after:duration-600 hover:after:w-full hover:after:left-0";
 
   const headerRef = useRef(null);
   const lastScrollTop = useRef(0);
@@ -49,7 +49,7 @@ function Header() {
     <header
       ref={headerRef}
       id="main-header"
-      className="fixed top-0 left-0 w-full text-black font-bold z-50 transition-all duration-300 backdrop-blur-lg"
+      className="fixed top-0 left-0 w-full font-bold z-50 transition-all duration-300 backdrop-blur-lg"
     >
       <div className="flex items-center justify-between px-6 py-4 md:justify-center">
         {/* Logo (mobile) */}

@@ -1,4 +1,5 @@
-import whatsapp from '../../assets/whatsapp-white.svg';
+import "../home/Componentes/Style.css";
+import whatsapp from "../../assets/whatsapp-white.svg";
 
 const categorias = {
     'Comprar': [
@@ -132,10 +133,10 @@ const categorias = {
                     <a href="">Relatórios de Transparência</a>
                 </div>
                 <div className='flex gap-4 flex-wrap'>
-                    <img src={whatsapp} alt="whatsapp" className='w-[30px]' />
-                    <img src="/branco-instagram.svg" alt="instagram" className='w-[30px]' />
-                    <img src="/twitterx.svg" alt="chome" className='w-[30px]' />
-                    <img src="/facebook.svg" alt="facebook" className='w-[30px]' />
+                    <img src={whatsapp} alt="whatsapp" className='rotate w-[30px]' />
+                    <img src="/branco-instagram.svg" alt="instagram" className='rotate w-[30px]' />
+                    <img src="/twitterx.svg" alt="chome" className='rotate w-[30px]' />
+                    <img src="/facebook.svg" alt="facebook" className='rotate w-[30px]' />
                 </div>
         </div>
 
